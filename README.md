@@ -1,27 +1,27 @@
 # Linux Sysadmin Automation Kit
 
 ## Overview
-
-A Linux server monitoring script written in Bash that performs automated health checks and stores reports in a log file.
+A Bash script that performs automated server health checks and stores formatted reports in a log file.
 
 ## Features
+- Disk space monitoring
+- RAM usage tracking
+- Running services check
+- Formatted log report output
+- Automated hourly execution via cron job
 
-- Disk Usage Monitoring
-- RAM Usage Monitoring
-- System Uptime Monitoring
-- Top Memory Consuming Processes
-- Automated Logging
-- Hourly Execution using Cron
+## Skills Applied
+`Linux` `Bash` `Cron` `Logging`
 
-## Project Structure
+## Usage
 
-linux-sysadmin-kit/
-├── health_check.sh
-├── logs/
-│   └── health_report.log
-└── README.md
-
-## Run Manually
-
+### Run manually
 ```bash
-./health_check.sh
+bash health_check.sh
+```
+
+### Set up cron job (runs every hour)
+```bash
+crontab -e
+```
+Add this line:
