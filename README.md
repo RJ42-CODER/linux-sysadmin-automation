@@ -10,18 +10,17 @@ A Bash script that performs automated server health checks and stores formatted 
 - Formatted log report output
 - Automated hourly execution via cron job
 
-## Skills Applied
+## Skills Applied here are
 `Linux` `Bash` `Cron` `Logging`
 
 ## Usage
 
-### Run manually
+### To Run manually
 ```bash
 bash health_check.sh
 ```
 
-### Set up cron job (runs every hour)
+### Setting up cron job (runs every hour)
 ```bash
 crontab -e
 ```
-Add this line:
